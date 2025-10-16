@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6852465522245090469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4435447469813838565}
+  - component: {fileID: 4655212716325703069}
+  - component: {fileID: 6546176784081029394}
+  - component: {fileID: 3900405405472700261}
+  m_Layer: 0
+  m_Name: ProjectScope
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4435447469813838565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6852465522245090469}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4655212716325703069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6852465522245090469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 238ee66aa2bafad47bf60938e98aebca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6546176784081029394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6852465522245090469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7039e4d8d987fc4c9197b0b79a32998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _levelStorage: {fileID: 3900405405472700261}
+--- !u!114 &3900405405472700261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6852465522245090469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e554330aa4dcbb7449afd1553597eede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _levels:
+  - {fileID: 7297881910741281827, guid: 416ae93503565d74191d7e6b1890033d, type: 3}
+  - {fileID: 48041642017279904, guid: a414d1a0ae97dc3479468450e6bdeba7, type: 3}
+  - {fileID: 7440766426967269108, guid: 6e6adc1b523121a41901e14912c9f964, type: 3}
+  - {fileID: 4130089863375786618, guid: 359a1d974da9d8c49ac0eded26d5d6ae, type: 3}
+  - {fileID: 7917950841357480185, guid: d10a0f470a93c854fbcd47bce35572f0, type: 3}
+  - {fileID: 1088638490164903195, guid: 93b8074f8555c4245bb46d45f71ee66d, type: 3}
+  - {fileID: 5580131045555630951, guid: a7ac95fa3ee7d2e46afdbd5dbf56cc36, type: 3}
+  _heroes:
+  - {fileID: 11400000, guid: e2ad86b0d450a904f94d1cc0ed8cf869, type: 2}
+  - {fileID: 11400000, guid: b1995f376dc0d0e41b8b152393649ab8, type: 2}
+  - {fileID: 11400000, guid: 19ec2638095fb85408932907c90a2577, type: 2}
+  _loadScreens:
+  - {fileID: 21300000, guid: 9c63c08a567dfef48a4a0b62d92e2dd6, type: 3}
+  - {fileID: 21300000, guid: 63f0a5d8b0113ae47a74110f8235f6b0, type: 3}
+  - {fileID: 21300000, guid: e04b7776019e3ca47bb357f0e4dcb5f2, type: 3}
+  - {fileID: 21300000, guid: 21722cbdb3dd17847baefc0bcd5dd429, type: 3}
+  _levelSettings: {fileID: 11400000, guid: dd935de9aa50aab4eadd8e9d6971638f, type: 2}
